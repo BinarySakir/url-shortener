@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=Miriam+Libre:400,700';
+*::selection {
+  background: #e74c3c;
+  color: #ffffff;
+}
+*::-moz-selection {
+  background: #e74c3c;
+  color: #ffffff;
+}
+*::-webkit-selection {
+  background: #e74c3c;
+  color: #ffffff;
+}
+body{
+	font-family: 'Miriam Libre', 'Arial', sans-serif;
+	color: #1c1c1e;
+	outline: 0;
+}
+h1{
+	font-weight: 700;
+	padding: 20px;
+	font-size: 42px;
+}
+small a{
+	color: #e74c3c;
+	font-weight: 700;
+}
+p{
+	text-align: center;
+	color: grey;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.container{
+	margin-top: 10%;
+}
+.form-control,
+.form-control:focus,
+.form-control:active,
+.form-control:hover{
+	height: auto;
+	padding: 10px 16px;
+	font-size: 22px;
+	box-shadow: none;
+	border: 1px solid #e74c3c;
+	border-radius: 2px;
+	color: #1c1c1e;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus{
+	background-color: #e74c3c;
+	font-size: 22px;
+	border-radius: 2px;
+	padding: 10px 16px;
+	border: 1px solid #e74c3c;
+	color: #ffffff;
+}
+.copyurl, .error{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	background-color: #eeeeee;
+	margin-top: 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 3px;
+	font-size: 28px;
+}
